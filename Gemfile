@@ -48,6 +48,7 @@ group :development, :test do
   gem 'pry'
   gem 'byebug'
   gem 'fabrication'
+  gem 'faker'
 end
 
 group :test do
