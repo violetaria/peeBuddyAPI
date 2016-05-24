@@ -49,6 +49,12 @@ group :development, :test do
   gem 'byebug'
 end
 
+group :text do
+  gem 'rspec-rails', '~> 3.4'
+  gem 'shoulda-matchers', require: false
+  gem 'rspec-its'
+end
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
