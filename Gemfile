@@ -47,6 +47,14 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'pry'
   gem 'byebug'
+  gem 'fabrication'
+  gem 'faker'
+end
+
+group :test do
+  gem 'rspec-rails', '~> 3.4'
+  gem 'shoulda-matchers', require: false
+  gem 'rspec-its'
 end
 
 group :development do
